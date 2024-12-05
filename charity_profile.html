@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities List</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Charity Name</h1>
+            <p>Dedicated to creating change and inspiring hope.</p>
+            <img src="images/charity.jpg" alt="Charity Image">
+        </section>
+
+        <section>
+            <button id="volunteer-btn">Volunteer Now</button>
+            <div id="volunteer-form" style="display: none;">
+                <form>
+                    <h2>Sign Up to Volunteer</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="more-info">
+            <p>Hover over this section to learn more about our mission!</p>
+            <p class="hidden-details" style="display: none;">
+                Our charity focuses on creating sustainable solutions for community development.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact Info: <a href="mailto:contact@helphub.com">contact@helphub.com</a></p>
+        <p>
+            Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="js/charity_profile.js"></script>
+</body>
+</html>
