@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charities List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities List</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Charities List</h1>
+            <form>
+                <input type="text" placeholder="Search for charities">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="civic-data-section">
+            <h2>Your Representatives</h2>
+            <div id="civic-data-container">
+                <p>Loading data...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact Info: <a href="mailto:contact@helphub.com">contact@helphub.com</a></p>
+        <p>
+            Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="js/get_data.js"></script>
+</body>
+</html>
